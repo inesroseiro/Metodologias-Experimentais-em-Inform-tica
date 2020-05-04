@@ -1,0 +1,348 @@
+x = rnorm(100)#
+plot(x)
+clear
+my_data <- read.delim("bubble_n_subarray.txt")
+cd Desktop
+source("/Users/iroseiro/Desktop/100/graphs.r")
+source("/Users/iroseiro/Desktop/100/")
+source("/Users/iroseiro/Desktop/100")
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 70),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 80),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(10,70),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,70),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+v
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 70),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,50),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+data#
+plot("insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+data#
+plot("insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+data#
+plot("insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+data#
+plot("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()

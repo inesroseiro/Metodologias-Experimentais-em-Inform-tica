@@ -1,0 +1,4 @@
+"Randomization Non-Parametric TWO-WAY ANOVA"
+"max_r:  0"
+"algoritmo: 0"
+"max_r:algoritmo: 6e-04"

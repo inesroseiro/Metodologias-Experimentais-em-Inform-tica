@@ -1,0 +1,2480 @@
+x = rnorm(100)#
+plot(x)
+clear
+my_data <- read.delim("bubble_n_subarray.txt")
+cd Desktop
+source("/Users/iroseiro/Desktop/100/graphs.r")
+source("/Users/iroseiro/Desktop/100/")
+source("/Users/iroseiro/Desktop/100")
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+#
+boxplot(mpg ~ cyl, data = data, xlab = "Number of Cylinders",#
+   ylab = "Miles Per Gallon", main = "Mileage Data")
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used
+boxplot(mpg ~ cyl, data = data_used, xlab = "Number of Cylinders",#
+   ylab = "Miles Per Gallon", main = "Mileage Data")
+boxplot(data = data_used, xlab = "Number of Cylinders",#
+   ylab = "Miles Per Gallon", main = "Mileage Data")
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used, main="Bubble sort - Maximum sorted array \n (100 elements)",#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used, main="Bubble sort - Maximum sorted array \n (100 elements)",#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used, #
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+)
+boxplot(data_used, #
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used,#
+las = 2,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used,#
+las = 2#
+)
+boxplot(data_used,#
+)
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used,#
+)
+m(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+m#
+dp#
+#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+m#
+dp#
+boxplot(data_used,#
+notch = TRUE#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+m#
+dp#
+boxplot(data_used,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+m#
+dp#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+#data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+#m#
+#dp#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+#data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+#m#
+#dp#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+#m#
+#dp#
+boxplot(data_used#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_subarray.txt")#
+data_used = unlist(df,use.names = FALSE)#
+data_used#
+m = mean(data_used)#
+dp = sd(data_used, na.rm=FALSE)#
+#m#
+#dp#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data_used_1000 = unlist(df,use.names = FALSE)#
+data_used_1000#
+m_1000 = mean(data_used_1000)#
+dp_1000 = sd(data_used_1000, na.rm=FALSE)#
+#
+boxplot(data_used, data_used_1000#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used)#
+dp_b = sd(data_used, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i#
+)
+#bloxplot creation - 100 elements#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i#
+)#
+names = c("Bubble", "Quick", "Merge", "Insertion")
+#bloxplot creation - 100 elements#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"))
+color
+col
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+las = 2)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = aliceblue#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = "aliceblue"#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = "aliceblue"#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = "powderblue", "palegreen", "pink", "lightsalmon"#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon")#
+)
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon")#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)",#
+#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble", "Quick", "Merge", "Insertion"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("Bubble\nSort", "Quick\nSort", "Merge\nSort", "Insertion\nSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pfd("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (maxr_com_n_4)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (maxr_com_n_4)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (maxr_com_n_4)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (maxr_com_n_4)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements (parametros base)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (eps_1)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_0.5_n/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_0.5_n/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_0.5_n/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+# --------------------------------------------------------------------#
+#bloxplot creation - 100 elements (eps_1)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_2_n/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_2_n/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_2_n/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+# --------------------------------------------------------------------#
+#bloxplot creation - 100 elements (eps_1)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_4_n/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#
+#bloxplot creation - 1000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_4_n/1000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_1000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (1000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()#
+#bloxplot creation - 10000 elements #
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/eps_4_n/10000")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+pdf("boxplot_10000elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (10000 elements)"#
+#
+)#
+#
+grid()#
+dev.off()
+#este script da o crescimento de tempo usado para cada algoritmo#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,431000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(1, 430000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)
+#este script da o crescimento de tempo usado para cada algoritmo#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+#
+pdf("time_with_bubble.pdf")#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,431000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(1, 430000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)#
+#da oblivious do ultimo valor de bubble sort#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+#
+pdf("time_oblivious_bubble.pdf")#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,20000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(7000, 20000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)
+#da oblivious do ultimo valor de bubble sort#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+#
+pdf("time_oblivious_bubble.pdf")#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,20000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(7000, 20000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)#
+grid()#
+dev.off()
+#da oblivious do ultimo valor de bubble sort#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/time_oblivious_bubble.pdf")#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,20000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(7000, 20000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)#
+grid()#
+dev.off()
+#este script da o crescimento de tempo usado para cada algoritmo#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("insert_n_runtime.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+m1 = mean(data)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_runtime.txt")#
+data2 = unlist(df,use.names = FALSE)#
+#
+m2 = mean(data2)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_runtime.txt")#
+data3 = unlist(df,use.names = FALSE)#
+#
+m3 = mean(data3)#
+datay <- c(m1,m2,m3)#
+datax <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("quick_n_runtime.txt")#
+data_q = unlist(df,use.names = FALSE)#
+#
+m1_q = mean(data_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_runtime.txt")#
+data2_q = unlist(df,use.names = FALSE)#
+#
+m2_q = mean(data2_q)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_runtime.txt")#
+data3_q = unlist(df,use.names = FALSE)#
+#
+m3_q = mean(data3_q)#
+datay_q <- c(m1_q,m2_q,m3_q)#
+datax_q <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("merge_n_runtime.txt")#
+data_m = unlist(df,use.names = FALSE)#
+#
+m1_m = mean(data_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_runtime.txt")#
+data2_m = unlist(df,use.names = FALSE)#
+#
+m2_m = mean(data2_m)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_runtime.txt")#
+data3_m = unlist(df,use.names = FALSE)#
+#
+m3_m = mean(data3_m)#
+datay_m <- c(m1_m,m2_m,m3_m)#
+datax_m <- c(100, 1000, 10000)#
+#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/100")#
+df = read.table("bubble_n_runtime.txt")#
+data_b = unlist(df,use.names = FALSE)#
+#
+m1_b = mean(data_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_runtime.txt")#
+data2_b = unlist(df,use.names = FALSE)#
+#
+m2_b = mean(data2_b)#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_runtime.txt")#
+data3_b = unlist(df,use.names = FALSE)#
+#
+m3_b = mean(data3_b)#
+datay_b <- c(m1_b,m2_b,m3_b)#
+datax_b <- c(100, 1000, 10000)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/time_with_bubble.pdf")#
+plot(datax, datay ,type = "o",#
+col = "red", #
+xlab = "Number of elements", #
+ylab = "Execution Time (ms)",#
+ylim= c(0,431000),#
+main = "Execution Time of Sorting Algorithms")#
+#
+points(datax_q, datay_q, col="blue")#
+lines(datax_q, datay_q, col = "blue", lty=1)#
+#
+points(datax_m, datay_m, col="darkgreen")#
+lines(datax_m, datay_m, col = "darkgreen", lty=1)#
+#
+points(datax_b, datay_b, col="darkorange1")#
+lines(datax_b, datay_b, col = "darkorange1", lty=1)#
+#
+#text(datax, datay, datay, cex=0.5, pos=3, col="red")#
+#text(datax_q, datay_q, datay_q, cex=0.5, pos=1, col="blue")#
+#text(datax_m, datay_m, datay_m, cex=0.5, pos=4, col="darkgreen")#
+#text(datax_b, datay_b, datay_b, cex=0.5, pos=4, col="darkorange1")#
+legend(1, 430000, legend=c("InsertionSort", "QuickSort", "MergeSort", "Bubble Sort"),#
+       col=c("red", "blue", "darkgreen", "darkorange1"), lty=1, cex=0.8)#
+#
+grid()#
+dev.off()
+#bloxplot creation - 100 elements (maxr_com_n_4)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df_b = read.table("bubble_n_subarray.txt")#
+data_used_b = unlist(df_b,use.names = FALSE)#
+data_used_b#
+m_b = mean(data_used_b)#
+dp_b = sd(data_used_b, na.rm=FALSE)#
+#m#
+#dp#
+df_q = read.table("quick_n_subarray.txt")#
+data_used_q = unlist(df_q,use.names = FALSE)#
+data_used_q#
+m_q = mean(data_used_q)#
+dp_q = sd(data_used_q, na.rm=FALSE)#
+#
+df_m = read.table("merge_n_subarray.txt")#
+data_used_m = unlist(df_m,use.names = FALSE)#
+data_used_m#
+m_m = mean(data_used_m)#
+dp_m = sd(data_used_m, na.rm=FALSE)#
+#
+df_i = read.table("insert_n_subarray.txt")#
+data_used_i = unlist(df_i,use.names = FALSE)#
+data_used_i#
+m_i = mean(data_used_i)#
+dp_i = sd(data_used_i, na.rm=FALSE)#
+#
+mean_vector<-(m_b, m_i, m_q, m_m)#
+mean_vector
+mean_vector<- c(m_b, m_i, m_q, m_m)#
+mean_vector
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+)#
+points(mean_vector)
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+)#
+points(mean_vector)#
+#
+grid()#
+dev.off()
+pdf("boxplot_100elems_param_base.pdf")#
+boxplot(data_used_b, data_used_q, data_used_m, data_used_i,#
+names = c("BubbleSort", "QuickSort", "MergeSort", "InsertionSort"),#
+col = c ("powderblue", "palegreen", "pink", "lightsalmon"),#
+main="Largest sorted subsequence size \n (100 elements)"#
+)#
+points(mean_vector, pch = 20)#
+#
+grid()#
+dev.off()

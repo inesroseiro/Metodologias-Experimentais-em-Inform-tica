@@ -1,0 +1,4 @@
+"Randomization Non-Parametric TWO-WAY ANOVA"
+"eps:  0"
+"algoritmo: 0"
+"eps:algoritmo: 0"

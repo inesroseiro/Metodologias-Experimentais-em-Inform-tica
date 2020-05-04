@@ -1,0 +1,2009 @@
+x = rnorm(100)#
+plot(x)
+clear
+my_data <- read.delim("bubble_n_subarray.txt")
+cd Desktop
+source("/Users/iroseiro/Desktop/100/graphs.r")
+source("/Users/iroseiro/Desktop/100/")
+source("/Users/iroseiro/Desktop/100")
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png", width=750, height=500)#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 500),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+plot("/Users/iroseiro/Desktop/testes/parametros_base/1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 500),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+plot("/Users/iroseiro/Desktop/testes/parametros_base/1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 1000),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+plot("/Users/iroseiro/Desktop/testes/parametros_base/1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png", width=750, height=500, res = 300)#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png", width=750, height=500)#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png", width=750, height=500, res=100)#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+png("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.png", width=750, height=500, res=200)#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 120),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+#pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 200),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/quick_1000.pdf")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/quick_1000.pdf")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/merge_1000.pdf")#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/bubble_1000.pdf")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/1000/bubble_1000.pdf")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/quick_10000.pdf")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 10000),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)#
+grid()#
+dev.off()#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/merge_10000.pdf")#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/bubble_10000.pdf")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/quick_10000.pdf")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(1000, 5000),#
+ylim= c(0,10),#
+col="grey",#
+breaks = 30,#
+)#
+grid()#
+dev.off()#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/merge_10000.pdf")#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(1000, 6000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/bubble_10000.pdf")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(2000, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/parametros_base/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+pdf("/Users/iroseiro/Desktop/testes/parametros_base/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 500),#
+ylim= c(0,30),#
+col="grey",#
+breaks = 30,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("merge_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20, 80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,80),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10,100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0,100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(30, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/quick_1000.pdf")#
+#
+data#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0,1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(30, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/quick_1000.pdf")#
+#
+data#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 200),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 150),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,850),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 150),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/quick_10000.pdf")#
+#
+data#
+plot("quick_10000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/merge_10000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/quick_10000.pdf")#
+#
+data#
+plot("quick_10000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/merge_10000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/quick_10000.pdf")#
+#
+data#
+plot("quick_10000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(1000, 7000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/merge_10000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 8000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(3000, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n_4/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 400),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0,100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(30, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 40),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(10, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(20,100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(30, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 150),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/quick_1000.pdf")#
+#
+data#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,800),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/quick_1000.pdf")#
+#
+data#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(400, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 200),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/quick_1000.pdf")#
+#
+data#
+plot("quick_1000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/bubble_1000.pdf")#
+#
+data#
+plot("bubble_100000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(200, 1000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/insertion_1000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(40, 150),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/1000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/1000/merge_1000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (1000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100,600),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/quick_10000.pdf")#
+#
+data#
+plot("quick_10000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/merge_10000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(2000, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/quick_10000.pdf")#
+#
+data#
+plot("quick_10000.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(1000, 5000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/merge_10000.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(1000, 5000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 1000),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/insertion_10000.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(100, 400),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_n/10000")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_n/10000/bubble_10000.pdf")#
+#
+data#
+plot("bubble_1000000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (10000 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(2000, 10000),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/100")#
+df = read.table("insert_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_2n/100/insertion_100.pdf")#
+hist(data,#
+main="Insertion sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/100")#
+df = read.table("quick_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_2n/100/quick_100.pdf")#
+#
+data#
+plot("quick_100.png")#
+hist(data,#
+main="Quick sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/100")#
+df = read.table("merge_n_subarray.txt")#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_2n/100/merge_100.pdf")#
+#
+data = unlist(df,use.names = FALSE)#
+#data#
+hist(data,#
+main="Merge sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0,100),#
+ylim= c(0,20),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()#
+rm(list=ls())#
+setwd("/Users/iroseiro/Desktop/testes/maxr_com_2n/100")#
+df = read.table("bubble_n_subarray.txt")#
+data = unlist(df,use.names = FALSE)#
+pdf("/Users/iroseiro/Desktop/testes/maxr_com_2n/100/bubble_100.pdf")#
+#
+data#
+plot("bubble_10000.png")#
+hist(data,#
+main="Bubble sort - Maximum sorted array \n (100 elements)",#
+xlab="Number of sorted elements",#
+xlim= c(0, 100),#
+ylim= c(0,40),#
+col="grey",#
+breaks = 50,#
+)#
+#
+grid()#
+dev.off()

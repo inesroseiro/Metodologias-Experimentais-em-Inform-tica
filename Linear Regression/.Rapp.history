@@ -1,0 +1,478 @@
+x = rnorm(100)#
+plot(x)
+clear
+my_data <- read.delim("bubble_n_subarray.txt")
+cd Desktop
+source("/Users/iroseiro/Desktop/100/graphs.r")
+source("/Users/iroseiro/Desktop/100/")
+source("/Users/iroseiro/Desktop/100")
+install.packages("ggplot2")
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Quick sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("quick_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Quick Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Quick sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("quick_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Quick Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+# Merge sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("merge_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("merge_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("merge_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Merge Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+# Insertion sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("insert_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("insert_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("insert_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Insertion Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~R$n_elems)#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+lr.out = lm(R$subarray~log(R$n_elems))
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))#
+#
+rm(list=ls())#
+# Quick sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("quick_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Quick Sort",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort with Logaritmic Transformation",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+logline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort with Logaritmic Transformation",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+logline(lm(R$subarray ~ R$n_elems))#
+#
+rm(list=ls())#
+# Quick sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("quick_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Quick Sort with Logaritmic Transformation",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
+rm(list=ls())#
+# Bubble sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("bubble_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("bubble_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Bubble Sort with Logaritmic Transformation",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+logline(lm(R$subarray ~ R$n_elems))#
+#
+rm(list=ls())#
+# Quick sort linear regression#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/100")#
+df100 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/1000")#
+df1000 = read.table("quick_n_subarray.txt")#
+setwd("/Users/iroseiro/Desktop/MEI_RL/parametros_base/10000")#
+df10000 = read.table("quick_n_subarray.txt")#
+#
+R<- rbind(df100, df1000, df10000) #
+names(R)[1]<-paste("subarray")#
+#
+res <-matrix(1:300);#
+#
+for (i in 1:100) {#
+    res[i,1] <- 100#
+}#
+for (i in 100:200) {#
+    res[i,1] <- 1000#
+}#
+for (i in 200:300) {#
+    res[i,1] <- 10000#
+}#
+#
+R$n_elems <- res#
+setwd("/Users/iroseiro/Desktop/MEI_RL/")#
+lr.out = lm(R$subarray~log(R$n_elems))#
+#
+summary(lr.out)#
+plot(R$n_elems,#
+R$subarray,#
+main="Linear regression for Quick Sort with Logaritmic Transformation",#
+ylab="Max ordenated subsequence (max_size)",#
+xlab="Number of elements (n)"#
+)#
+abline(lm(R$subarray ~ R$n_elems))
